@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="">
+        <div class="header">
+            <h1>Preksha's Website!</h1>
+            <ul class="topnav" id="myTopnav">
+                <li ><a href="index.html">Home</a></li>
+                <!-- <li><a>About</a></li> -->
+                <li><a href="blog.html">Blogs</a></li>
+                <li class="active"><a href="feed.html">Feeds</a></li>
+                <!-- <li><a href="#">Contact</a></li> -->
+                <li><button class="button">Subscribe</button></li>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div class="sections insta_section">
+        <h1 class="insta_heading">Instagram feeds</h1>
+        <div class="outer_img_container">
+            <div class="img_container">
+                <img src="images\75095.png"">
+        <img src=" images\mike-dorner-sf_1ZDA1YFw-unsplash.png"">
+                <img src="images\1683.png"">
+        <img src=" images\2857.png"">
+                <img src="images\sina-katirachi-sj5nVJSfYl4-unsplash.png"">
+        <img src=" images\451.png"">
+                <img src="images\markus-spiske-UJwcQ3xeFHo-unsplash.png"">
+        <img src=" images\1841.png">
+                <img src="images\15.png"">
+        <img src=" images\1670.png"">
+            </div>
+        </div>
+    </div>
+    <div class="sections">
+        <h1 class="new_blog">New Blog Every Week!</h1>
+        <div class="new_blog_body">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy</br>
+                eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.
+            </p>
+        </div>
+        <div class="subscribe">
+            <p>Type Your Email</p>
+            <button>
+                <p>Subscribe</p>
+                <img src="images\arrow-right.png" alt="right" />
+            </button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="columns brand">
+            <div class="company_logo_bottom">
+                <img src="images\icon.png" />
+                <img src="images\logo.png" />
+            </div>
+            <p class="footer_grey">
+                Lorem ipsum dolor sit amet, consectetur sadipscing<br>
+                elitr, sed diam nonumy eirmod tempor invidunt
+            </p>
+            <p class="footer_bold">
+                Social
+            </p>
+            <div class="social_icons">
+                <div class="social_icons_company">
+                    <img src="images\facebook.png" />
+                </div>
+                <div class="social_icons_company" style=padding:12px 10px;>
+                    <img src="images\linkedin.png" />
+                </div>
+                <div class="social_icons_company" style=padding:11px 10px;>
+                    <img src="images\instagram.png" />
+                </div>
+            </div>
+        </div>
+        <div class="footer_right">
+            <div class="columns pages">
+                <p class="footer_bold">
+                    Pages
+                </p>
+                <p class="footer_grey">
+                    About
+                </p>
+                <p class="footer_grey">
+                    About
+                </p>
+                <p class="footer_grey">
+                    About
+                </p>
+                <p class="footer_grey">
+                    About
+                </p>
+
+            </div>
+            <div class="columns recent_blogs">
+                <p class="footer_bold">
+                    Recent Blogs
+                </p>
+                <p class="footer_grey">
+                    Blog 1
+                </p>
+                <p class="footer_grey">
+                    Blog 2
+                </p>
+                <p class="footer_grey">
+                    Blog 3
+                </p>
+                <p class="footer_grey">
+                    Blog 4
+                </p>
+            </div>
+            <div class="columns podcast">
+                <p class="footer_bold">
+                    Partners
+                </p>
+                <div class="companies">
+                    <img src="images\google.png" alt="right" width=175px />
+                    <img src="images\apple.png" alt="right" width=175px />
+                    <img src="images\spotify.png" alt="right" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
