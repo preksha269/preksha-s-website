@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.parent{
+width:150px;
+height:150px;
+background-color:lightgreen;
+border:1px solid rgba(230,230,230,1);
+}
+
+</style>
+</head>
+<body>
+
+<div class="parent" style="background-color: rgb(0, 0, 255);">
+</div>
+
+</body>
+</html>		
