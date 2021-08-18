@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.element{
+width:90px;
+height:80px;
+border:1px solid black;
+overflow:auto;
+}
+
+</style>
+</head>
+<body>
+
+<div class="element" style="overflow: visible;">
+We are observing the effect of overflow property for different values.
+</div>
+
+</body>
+</html>		
