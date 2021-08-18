@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.parent{
+width:150px;
+height:150px;
+border:1px solid black;
+overflow:auto;
+}
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="parent" contenteditable="true" style="resize: none;">
+You can enable the resizing of this element along any of the axes.
+</div>
+
+</body>
+</html>		
