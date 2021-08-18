@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.element{
+width:150px;
+height:100px;
+border:1px solid black;
+}
+
+</style>
+</head>
+<body>
+
+<div class="element" style="cursor: auto;">
+cursor shape
+</div>
+
+<div class="element" style="cursor: context-menu;">
+    cursor shape
+    </div>
+
+    
+<div class="element" style="cursor: crosshair;">
+    cursor shape
+    </div>
+</body>
+</html>		
