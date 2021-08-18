@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+
+</style>
+</head>
+<body>
+
+<ul class="element" style="list-style: outside none disc;">
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ul>
+<ul class="element" style="list-style: outside none circle;">
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+    </ul>
+    <ul class="element" style="list-style: outside none decimal;">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        </ul>
+        <ul class="element" style="list-style: outside none lower-greek;">
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+            </ul>
+                    
+
+</body>
+</html>		
