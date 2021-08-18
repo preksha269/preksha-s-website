@@ -1,0 +1,22 @@
+!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.element{
+ width:200px;
+ height:100px;
+ background-color:lightblue;
+ text-decoration-line:underline;
+}
+
+</style>
+</head>
+<body>
+
+<div class="element" style="text-decoration: underline solid currentcolor;">
+We are learning text decoration property
+</div>
+
+</body>
+</html>		
